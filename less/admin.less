@@ -1,0 +1,16 @@
+.PageList .PageListItem {
+    &[class*="PageListTemplate_component"] {
+        background: #f3f3f3;
+        border-bottom: 1px solid #e0e0e0;
+        &.PageListItemOpen {
+            background: #e0e0e0;
+            border-bottom: 1px solid #c9c9c9;
+        }
+    }
+    &.PageListTemplate_config, &.PageListTemplate_container , &.PageListTemplate_head, &.PageListTemplate_foot {
+        background:#e4e9f2;
+        &.PageListItemOpen {
+            background-color: #d0d7e3;
+        }
+    }
+}
